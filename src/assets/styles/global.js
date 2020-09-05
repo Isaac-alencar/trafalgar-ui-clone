@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const Globalstyle = createGlobalStyle`::after
+const Globalstyle = createGlobalStyle`
 
 * {
   margin: 0;
@@ -10,14 +10,13 @@ const Globalstyle = createGlobalStyle`::after
   box-sizing: border-box;
 }
 
-:root {
-  
-}
-
 html, body, #root {
   height: 100vh;
 }
 
+body {
+  background-color: '#FFF';
+}
 
 `;
 

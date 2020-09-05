@@ -1,7 +1,16 @@
 import React from "react";
 
+import Landing from "./pages/Landing";
+
+import Globalstyle from "./assets/styles/global";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Globalstyle />
+      <Landing />
+    </>
+  );
 }
 
 export default App;
