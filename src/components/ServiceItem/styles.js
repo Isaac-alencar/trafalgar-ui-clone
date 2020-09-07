@@ -27,4 +27,26 @@ export const Container = styled.div`
     line-height: 28px;
     color: #7d7987;
   }
+
+  @media (max-width: 1000px) {
+    width: 320px;
+    height: 344px;
+
+    img {
+      align-self: flex-start;
+      width: 60px;
+      height: 60px;
+    }
+
+    strong {
+      font-size: 24px;
+      line-height: 56px;
+    }
+
+    p {
+      font-family: muli, sans-serif;
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
 `;

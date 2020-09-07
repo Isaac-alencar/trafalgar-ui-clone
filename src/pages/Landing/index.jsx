@@ -1,14 +1,9 @@
 import React from "react";
-import Layout from "../Layouts/index";
 
-import { Container } from "./styles";
+import Layout from "../../Layouts";
 
 function Landing() {
-  return (
-    <Container>
-      <Layout />
-    </Container>
-  );
+  return <Layout />;
 }
 
 export default Landing;
